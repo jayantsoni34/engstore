@@ -26,7 +26,7 @@ const QuantitySchema = new mongoose.Schema(
     outmodel:    { type: String, default: "" },
     desc:        { type: String, default: "" },
     receiveqty:  { type: String, default: "" },
-    // dispatchqty: { type: String, default: "" },
+    dispatchqty: { type: String, default: "" },
     consumed:    { type: String, default: "" },
     pending:     { type: String, default: "" },
     Extra:       { type: String, default: "" },
